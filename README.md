@@ -13,8 +13,8 @@ TDI(Textual Difficulty Identification) dataset aims to train the neural network 
 - Collected text data dump from the both of the sources.
 - Extracted the text and eliminated any control / xml characters and normalized unicode.
 - Filtering conditions are minimal to prevent possible human bias which can affect model performance.
-  (First, sentence length should be between 70 and 210
-   Second, every topic should have at least five sentences to be included in the dataset)
+  - First, sentence length should be between 70 and 210
+  - Second, every topic should have at least five sentences to be included in the dataset)
 - Randomly selected five sentences from each source.
 - Labeled as written above.
 
